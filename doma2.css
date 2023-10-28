@@ -1,0 +1,47 @@
+body{
+    font-family:cursive, fantasy;
+    background-image: url(./background.jpg);
+}
+
+table{
+    margin: 0 auto;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 25px;
+    
+    background-color: rgba(255, 255, 255, 0.85);
+}
+th{
+    font-size: large;
+    padding: 10px;
+    border: none;
+    border-bottom: dotted;
+    border-bottom-width: 2px;
+}
+
+td{
+    padding: 10px;
+    border: none;
+}
+#parent{
+    text-align: center;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(227, 228, 228);
+}
+.button:hover{
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: rgb(166, 166, 166);
+    cursor:grab;
+}
+.pole{
+    background-color: rgb(227, 228, 228);
+    
+    border:none;
+}
