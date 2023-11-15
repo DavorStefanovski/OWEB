@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styleshop.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <img src="logo.png" alt="logo" id="logo">
+            <span>SHOP</span>
+        </header>
+        <div id="quotes">
+        <h5>Quote of the day</h5>
+        <img src="quote.jpg" width="300px" height="200px">
+        </div>
+        <div id="container">
+            <div id="filtri">
+                <ul>
+                    <li id="lh">Filters</li>
+                    <li id="fh">Categories</li>
+                    <li><label>Paper</label><input type="checkbox"></li>
+                    <li><label>Canvas</label><input type="checkbox"></li>
+                    <li><label>Sculpture</label><input type="checkbox"></li>
+                    <li><label>Furniture</label><input type="checkbox"></li>
+                    <li id="fh">Price</li>
+                    <li><label>From</label><input type="number" id="no"><br><label>To</label><input type="number" id="no"></li>
+                    <li id="fh"><label>Sort By</label><select id="order">
+                        <option selected>Price Ascending</option>
+                        <option>Price Descending</option>
+                        <option>Time added</option>
+                    </select></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Legs legged table</h3>
+                <div><img src="./furniture/furniture1.jpg" id="post"></div>
+                <div id="infos">
+                    <p> Auction by : <i><b>Vico Magistretti</b></i></p>
+                    <div id="biddiv"><button class="bid" onclick="bid('./furniture/furniture1.jpg')">Bid</button></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
+                        <span>12</span><img src="comment.png" id="icon">
+                        <span>1178</span><img src="like.png" id="icon"></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Aquarel decoration</h3>
+                <div><img src="./paperart/paper3.jpg" id="post"></div>
+                <div id="infos">
+                    <p> Auction by : <i><b>Sukran Moral</b></i></p>
+                    <div id="biddiv"><button class="bid" onclick="bid('./paperart/paper3.jpg')">Bid</button></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
+                        <span>6</span><img src="comment.png" id="icon">
+                        <span>512</span><img src="like.png" id="icon"></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Paper skin</h3>
+                <div><img src="./paperart/paper1.jpg" id="post"></div>
+                <div id="infos">
+                    <p> Auction by : <i><b>Justin Roiland</b></i></p>
+                    <div id="biddiv"><button class="bid" onclick="bid('./paperart/paper1.jpg')">Bid</button></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
+                        <span>200</span><img src="comment.png" id="icon">
+                        <span>5002</span><img src="like.png" id="icon"></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Same people everywhere</h3>
+                <div><img src="./canvasart/canvas2.webp" id="post"></div>
+                <div id="infos">
+                    <p> Auction by : <i><b>Jim Lee</b></i></p>
+                    <div id="biddiv"><button class="bid" onclick="bid('./canvasart/canvas2.webp')">Bid</button></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
+                        <span>11</span><img src="comment.png" id="icon">
+                        <span>994</span><img src="like.png" id="icon"></div>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Silenced</h3>
+                <div><img src="./sculptures/sculpt2.jpg" id="post"></div>
+                <div id="infos">
+                    <p> Auction by : <i><b>Jazza</b></i></p>
+                    <div id="biddiv"><button class="bid" onclick="bid('./sculptures/sculpt2.jpg')">Bid</button></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
+                        <span>91</span><img src="comment.png" id="icon">
+                        <span>2872</span><img src="like.png" id="icon"></div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

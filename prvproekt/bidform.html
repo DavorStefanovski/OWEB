@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="bidstyle.css">
+</head>
+<body>
+    <div id="main">
+    <img id="bidimage">
+    <form><ul>
+        <li><label>Your bid:</label><input type="number"></li>
+        <li><label>Choose payment method:</label></li>
+        <li><img src="paypal.png"><input type="radio"><img src="applepay.png">
+            <input type="radio"><img src="mastercard.png"><input type="radio"></li>
+        <li><label>I've read the policies</label><input type="checkbox"></li>
+        <li><input type="submit" value="Place bid" id="button" onclick="placebid()"></li></ul>
+    </form>
+</div>
+<div id="rate">
+    <h4>Give us your opinion on our site</h4>
+    <textarea cols="40" rows="20"></textarea><br>
+    <input type="submit" value="Send" id="button">
+</div>
+<div>
+    <h4>Your other bids:</h4>
+    
+</div>
+    <script>
+        bidimg=localStorage.getItem('bidimg');
+        console.log('Bid Image Path:', bidimg);
+        document.getElementById('bidimage').src=bidimg;
+
+    </script>
+</body>

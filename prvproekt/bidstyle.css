@@ -1,0 +1,40 @@
+#bidimage{
+    width:100%;
+    aspect-ratio: 4/3;
+
+}
+body{
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;
+    background-image: url(background.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    width:30%;
+    background-color: rgb(197, 197, 174);
+    margin:0px;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid black;
+}
+ul{
+    list-style:none;
+}
+li{
+    padding:10px;
+}
+label{
+    padding:10px;
+}
+div{
+    text-align: center;
+}
+#button{
+    padding:5px 15px 5px 15px;
+    background-color: black;
+    border:1px solid white;
+    border-radius: 0.5rem;
+    color: white;
+
+}

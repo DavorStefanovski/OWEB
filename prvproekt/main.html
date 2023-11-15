@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+    <nav>
+        <ul id="navigation">
+            <li><img src="logo.png" alt="logo"  id="logo"></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="artists.html">ARTISTS</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a><img src="cart.png" id="carticon"></a><button id="b1" onclick="login()">log in</button><button id="b2">sign up</button></li>
+        </ul>
+    </nav>
+    </header>
+    <div id="searchdiv">
+        <img src="searchlogo.png" alt="search logo" id="searchlogo"><input type="text" placeholder="Search Artwork" id="searchbar">
+    </div>
+    
+<div id="container">
+
+    <div id="expiring">
+        <h3>Auctions that expire soon</h3>
+        <div class="sliderwrapper">
+            <div class="slider">
+            <img src="./paperart/paper1.jpg" alt="img1" id="slide1">
+            <img src="./canvasart/canvas3.jpg" alt="img1" id="slide2">
+            <img src="./paperart/paper2.jpg" alt="img1" id="slide3">
+            <img src="./canvasart/canvas4.webp" alt="img1" id="slide4">
+            </div>
+            <div class="slidernav">
+                <a href="#slide1"></a>
+                <a href="#slide2"></a>
+                <a href="#slide3"></a>
+                <a href="#slide4"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="trending">
+        <h3>Popular Artists</h3>
+        <div class="sliderwrapper">
+            <div class="slider" id="promeni">
+            <img src="./artists/Justin_Roiland.webp" alt="img1" id="slide11">
+            <img src="./artists/artist2.jpg" alt="img1" id="slide21">
+            <img src="./artists/artist3.jpg" alt="img1" id="slide31">
+            
+            </div>
+            <div class="slidernav">
+                <a href="#slide11"></a>
+                <a href="#slide21"></a>
+                <a href="#slide31"></a>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="categories">
+        <ul id="list">
+            <li id="lh"><a>Categories</a></li>
+            <li><a href="shop.html">Paper artwork</a></li>
+            <li><a href="shop.html">Canvas paintings</a></li>
+            <li><a href="shop.html">Sculptures</a></li>
+            <li><a href="shop.html">Artistic furniture</a></li>
+        </ul>
+
+    </div>
+
+</div>
+    <div id="footer">
+        <form>
+            <h4>Do you have any questions?</h4>
+            <img src="download.png">
+            <img src="mail.png">
+            <h5>RAMKA Skopje, Maceodnia</h5>
+        </form>
+    </div>
+</body>
+</html>

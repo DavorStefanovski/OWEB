@@ -1,0 +1,64 @@
+body{
+    background-image: url(background.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(67, 67, 60);
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:  0px 20px;
+   font-size: 18px;
+   letter-spacing: 2px;
+   font-weight: 500;
+   background-color:rgb(190, 183, 158);
+   position:relative;
+   top:20px;
+   border-bottom: 1px solid rgb(79, 82, 96);
+}
+#logo{
+    margin-left:40px;
+    margin-right: 600px;
+    height:140px;
+    width: 140px;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:50px;
+}
+#about img{
+    width:200px;
+    height: 200px;
+}
+#about p{
+    padding: 50px;
+    width: 600px;
+   
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom-right-radius: 0.5rem;
+}
+h3{
+    background-color: rgb(79, 82, 96);
+    height:50px;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+}
+#partners{
+    background-color: black;
+    margin:0;
+    text-align: center;
+}
+#partners img{
+    width: 300px;
+    height: 200px;
+    margin:20px;
+}

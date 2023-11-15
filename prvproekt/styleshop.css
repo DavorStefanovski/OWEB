@@ -1,0 +1,141 @@
+body{
+    background-image: url(background.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(67, 67, 60);
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding:  0px 20px;
+   font-size: 18px;
+   letter-spacing: 2px;
+   font-weight: 500;
+   background-color:rgb(190, 183, 158);
+   position:relative;
+   top:20px;
+   border-bottom: 1px solid rgb(79, 82, 96);
+}
+#logo{
+    margin-left:40px;
+    margin-right: 600px;
+    height:140px;
+    width: 140px;
+}
+#quotes{
+    position:absolute;
+    top:30px;
+    left: 80%;
+    background-color: rgb(79, 82, 96);
+    border-radius: 0.5rem;
+    
+}
+#quotes h5{
+    text-align: center;
+    color: #fff;
+}
+#container{
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    padding: 20px;
+    margin-top: 20px;
+    width:80%;
+    grid-gap: 10px;
+}
+#filtri{
+    
+    
+    width:90%;
+    grid-row: span 3;
+    color: rgb(190, 183, 158);
+    
+}
+#filtri ul{
+    list-style: none;
+}
+#filtri li{
+    padding: 10px;
+    background-color: rgb(79, 82, 96);
+}
+#lh{
+    text-align: center;
+    color: white;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+}
+#fh{
+    border-top: 1px solid black ;
+    color: white;
+}
+#no{
+    width:40px;
+    margin-left:10px;
+    background-color: rgb(154, 157, 169); 
+    border:none;
+    border-radius: 0.3rem;
+}
+#order{
+    width: 120px;
+    margin-left:10px;
+    background-color: rgb(154, 157, 169); 
+    border:none;
+    border-radius: 0.3rem;
+}
+.card{
+    border: 2px solid rgb(79, 82, 96);
+    width:90%;
+    background-color:rgb(233, 230, 223);
+    border-radius: 0.5rem;;
+}
+.card h3{
+    padding:0px 20px;
+}
+#post{
+    width: 100%;
+    aspect-ratio: 4/3;
+    border: 1px solid rgb(79, 82, 96);
+}
+#infos{
+    padding: 0 10px 10px 10px;
+}
+#icon{
+    position: relative;
+    top:10px;
+    margin: 0 8px;
+    width: 25px;
+    height: 25px;
+}
+#commentsection{
+    text-align: right;
+}
+#comment{
+    background-color: rgb(250, 217, 207);
+    color: black;
+    border-radius: 0.5rem;
+    border: none;
+    padding:5px;
+    margin-right: 20px;
+}
+.bid{
+    
+    padding:5px 20px 5px 20px;
+    background-color: rgb(79, 82, 96);
+    color: white;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+
+}
+.bid:hover{
+    
+    padding:5px 20px 5px 20px;
+    background-color: rgb(128, 133, 157);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: grab;
+    border: 1px solid white;
+}
+#biddiv{
+    text-align: right;
+}
