@@ -6,10 +6,18 @@
 
     <div>
         <h1>Welcome back</h1>
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
-        <button>Log In</button>
+        <form id="loginform">
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <button onclick="login()">Log In</button>
         <button>Log In with Google Account</button>
-        
+        </form>
     </div>
+    <script>
+        function login(){
+            if (document.getElementById('username').value=="username" && document.getElementById('password').value=="password")
+            window.close();
+        }
+    </script>
+  
 </body>
