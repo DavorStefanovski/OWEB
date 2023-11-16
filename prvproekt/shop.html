@@ -37,9 +37,10 @@
                 <div id="infos">
                     <p> Auction by : <i><b>Vico Magistretti</b></i></p>
                     <div id="biddiv"><button class="bid" onclick="bid('./furniture/furniture1.jpg')">Bid</button></div>
-                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment">
-                        <span>12</span><img src="comment.png" id="icon">
-                        <span>1178</span><img src="like.png" id="icon"></div>
+                    <div id="dynamic"></div>
+                    <div id="commentsection"><input type="text" placeholder="Comment" id="comment" onkeyup="comment(event)">
+                        <span id="nocomments">12</span><img src="comment.png" id="icon">
+                        <span id="nolikes">1178</span><img src="like.png" id="icon" onclick="like()"></div>
                 </div>
             </div>
             <div class="card">
@@ -87,6 +88,20 @@
                 </div>
             </div>
         </div>
+        <script>
+            function like(){
+                nolikes=parseInt(document.getElementById('nolikes').innerHTML);
+                nolikes=nolikes+1;
+                document.getElementById('nolikes').innerHTML=nolikes;
+            }
+            function comment(){
+                if(event.key=="Enter"){
+                nocomments=parseInt(document.getElementById('nocomments').innerHTML);
+                nocomments=nocomments+1;
+                document.getElementById('nocomments').innerHTML=nocomments;
+                document.getElementById('dynamic').innerHTML="<p>"+document.getElementById('comment').value+"</p>";}
+            }
+        </script>
         
     </body>
 </html>
