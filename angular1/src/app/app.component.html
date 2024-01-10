@@ -1,0 +1,9 @@
+<app-driver *ngFor="let vzc of vozaci; 
+index as i; 
+first as prv; 
+last as posleden;
+odd as nepar;
+even as par" [vozac]="vzc" [reden]="i+1" [class.prv]="prv" [class.posleden]="posleden"
+(cuci)="appklik($event)"></app-driver>
+
+
